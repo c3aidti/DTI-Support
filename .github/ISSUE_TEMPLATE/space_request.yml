@@ -1,4 +1,4 @@
- name: Request C3 Project Space
+name: Request C3 Project Space
 description: "Request a workspace for a C3 DTI application suite."
 #labels: []
 body:
