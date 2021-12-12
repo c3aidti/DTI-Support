@@ -36,9 +36,10 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: current-space
     attributes:
-      label: current-space
-      descriptions: Current shared development space.
+      label: Current shared development space.
+      descriptions: The current location for shared development of the above package.
       options:
         - training-space-IDS (dti-jupyter, dev on TC1)
     validations:
