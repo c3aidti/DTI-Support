@@ -26,8 +26,8 @@ body:
         No more than 16 characters.  No specal characters (dashes allows, no underscore).  
         All lowercase.
       placeholder: ex. storm-apps
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: current-package
     attributes:
