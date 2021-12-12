@@ -15,8 +15,8 @@ body:
         A short name for the primary application.  No more than 16 characters.  
         No specal characters (dashes allows, no underscore).  All lowercase.
       placeholder: ex. storm-tracker
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: space
     attributes:
