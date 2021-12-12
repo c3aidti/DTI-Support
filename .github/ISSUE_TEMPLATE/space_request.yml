@@ -33,16 +33,16 @@ body:
     attributes:
       label: Current package/application name
       description: The package name for your current application.
-    validations:
-      required: true
+      validations:
+        required: true
   - type: dropdown
     attributes:
       label: current-space
       descriptions: Current shared development space.
       options:
         - training-space-IDS (dti-jupyter, dev on TC1)
-    validations:
-      required: true
+      validations:
+        required: true
 
 
     
